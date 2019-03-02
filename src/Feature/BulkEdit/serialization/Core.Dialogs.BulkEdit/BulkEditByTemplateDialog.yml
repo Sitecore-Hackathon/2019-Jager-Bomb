@@ -1,0 +1,287 @@
+﻿---
+ID: "c3aa40d8-c0a7-414d-8c0c-d69b031c6d5d"
+Parent: "648afada-20c7-413a-9636-44703a16dfcf"
+Template: "8152cf09-9dd0-40c0-b806-6e91fdf389bc"
+Path: /sitecore/client/Applications/Dialogs/BulkEditByTemplateDialog
+DB: core
+SharedFields:
+- ID: "5e642935-a6fc-48e9-b039-fe1136ced488"
+  Hint: Theme
+  Value: Oxford
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="PageCodeTypeName=Sitecore.Speak.Applications.InsertSitecoreItemDialogTree%2c+Sitecore.Speak.Applications"
+          ph="Page.Code"
+          uid="{237256AA-9D30-463E-9ED1-90CFF092FCF6}" />
+        <r
+          id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}"
+          ph="Page.Body"
+          uid="{50606E5F-8450-418F-B448-859F66371220}" />
+        <r
+          id="{D47D6BFD-4F1F-4715-9FD1-5957EC0259F5}"
+          par="Formatting=%24convert_date_to_friendly_format&amp;Facets=%7bBinding+FilterControl.SelectedFacets%7d&amp;Database=%24context_contentdatabase&amp;Fields=__Created&amp;Language=%24context_language&amp;PageSize=20&amp;Id=DataSource"
+          ph="Page.Body"
+          uid="{B0F7C866-8C4D-43C6-989A-5554DF1EFEA8}" />
+        <r
+          id="{DC707F46-7F5E-4BA1-9BF9-820B4A23EC3F}"
+          par="Name=Scrollbar&amp;PageScriptFileName=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2flib%2fui%2f1.1%2fbehaviors%2fScrollBar.js&amp;Id=Scrollbar"
+          ph="Page.Code"
+          uid="{4BB5FD07-654C-4E30-8930-BDAB3F1A9671}" />
+        <r
+          id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}"
+          ph="DialogHeader"
+          uid="{3AB2380C-C8AD-4B42-8848-69418CE847F8}" />
+        <r
+          id="{D8C6868D-7AE2-447F-9FD2-E712FDFA46C1}"
+          ph="DialogFooter"
+          uid="{A061A4E7-F47D-42F8-AC31-6D9F0441F9B2}" />
+        <r
+          id="{300455F0-D5AF-4EB6-8758-BD41875C981C}"
+          ph="DialogContent"
+          uid="{57882B01-67A3-40A2-B6F0-F84287D6F584}" />
+        <r
+          ds="{81BC9226-DDBC-4B1C-AC04-326365BD9E41}"
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="Id=HeaderTitle"
+          ph="DialogHeader.Title"
+          uid="{1DC97590-77EC-4F75-A687-D86F7D22CAAA}" />
+        <r
+          ds="{F4460598-35E2-4D2E-9485-9CC8CF3A33C2}"
+          id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}"
+          par="ButtonType=Primary&amp;IsEnabled=0&amp;Id=InsertItemButton"
+          ph="DialogFooter.Buttons"
+          uid="{F5005B19-B18B-47BE-B0CA-D92005C2FECA}" />
+        <r
+          ds="{BEABC7A4-0D0A-4D4C-9220-CF3124FA4DA3}"
+          id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}"
+          par="ButtonType=Default&amp;Id=CancelButton"
+          ph="DialogFooter.Buttons"
+          uid="{D902E9F1-0ECB-4604-AF6E-912995675499}" />
+        <r
+          id="{C4393722-39FA-4869-9582-3A8EB8983A0D}"
+          par="Id=ToolbarRowPanel"
+          ph="DialogContent.Actions"
+          uid="{51FA5B43-38BA-48FB-A570-0FAB6F63E0D2}" />
+        <r
+          id="{5CB208F6-1860-426B-8221-FAA85B329848}"
+          par="ApplyGridColumsToAllSizes=1&amp;ContentAlign=Right&amp;GridColumns=12&amp;Id=ViewModeColumnPanel"
+          ph="ToolbarRowPanel.Content"
+          uid="{4FA2CAAB-8AAA-40D0-8084-E5A0494DCC77}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="IsGridRowFluid=1&amp;Id=TreeHeader"
+          ph="DialogContent.Main"
+          uid="{EA6E8EBD-D458-421C-83FE-68040C3685AB}" />
+        <r
+          ds="{EC1F4EFC-DB26-4F55-B093-7C32D63AEDE3}"
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="TextType=LargeTitle&amp;Id=SelectedMediaTitle"
+          ph="DialogContent.Title"
+          uid="{07277A71-CC94-4279-BC89-6C9A07A6CD18}" />
+        <r
+          ds="{730B1DA5-E254-451F-BB49-6717679098D5}"
+          id="{26B2B002-BCA0-4968-99E4-01573338B6A9}"
+          par="BackgroundPosition=-153px+-136px&amp;Dimension=Normal&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite.png&amp;IsOpen=1&amp;IsEnabled=1&amp;Click=javascript%3awindow.location%3d%27%2fsitecore%2fclient%2fApplications%2fDialogs%2fInsertSitecoreItemDialog%3fro%3d%7b0%7d%27&amp;Id=ListViewToggleButton"
+          ph="ViewModeColumnPanel.Content"
+          uid="{820468A0-A83B-4F73-ACCD-A91174BB99CD}" />
+        <r
+          ds="{925DEFF5-865D-48C7-9126-9F5500ADBCC2}"
+          id="{26B2B002-BCA0-4968-99E4-01573338B6A9}"
+          par="BackgroundPosition=-390px+-357px&amp;Dimension=Normal&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite.png&amp;IsEnabled=0&amp;Id=TreeViewToggleButton"
+          ph="ViewModeColumnPanel.Content"
+          uid="{7A5966F4-1EFB-4F1F-9A7F-0CE260195683}" />
+        <r
+          id="{08B6767B-8E8A-41C8-8880-EFEBB4EAE0E3}"
+          par="IsCheckboxEnabled=0&amp;RootItem=%7b3C1715FE-6A13-4FCF-845F-DE308BA9741D%7d&amp;Id=TreeView"
+          ph="DialogContent.Main"
+          uid="{2F4302C9-E2C6-445B-8122-3F30F389B660}" />
+        <r
+          id="{054CA6D7-125D-46D0-957C-D38A26190274}"
+          par="OffsetBottom=60&amp;OffsetTop=60&amp;Id=InfoSmartPanel"
+          ph="Page.Body"
+          uid="{CC8A21FD-B581-42C3-810C-F83895167FE8}" />
+        <r
+          ds="{F629DFA8-0EB1-486C-A78E-CF7A16AD5FDC}"
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="Text=Select+Template&amp;TextType=Text&amp;Id=InfoTitle"
+          ph="InfoSmartPanel.Header"
+          uid="{918F80BD-222B-46F1-B9F8-7EEC9D6034DF}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="ContentAlignment=Center&amp;UsePadding=1&amp;Id=InfoImageRow"
+          ph="InfoSmartPanel.Content"
+          uid="{9D28621E-4C7F-497B-97ED-05FA57E56C06}" />
+        <r
+          id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}"
+          par="Id=InfoImage"
+          ph="InfoImageRow.Content"
+          uid="{DD7A6455-F45D-4FD4-9AA5-05CCC70591CC}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="UsePadding=0&amp;Id=InfoNameRow"
+          ph="InfoSmartPanel.Content"
+          uid="{0C4B7EC4-3403-4352-A9DE-EFFB8C771599}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="Id=NameContainer"
+          ph="InfoSmartPanel.Content"
+          uid="{AD86AD44-F4FA-4DB9-B8F2-8BA5C5A62CF5}" />
+        <r
+          ds="{62A7E658-0354-46A0-8EC9-17E91F36EA8A}"
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="&amp;TextType=Label&amp;Id=InfoTypeLabel"
+          ph="InfoTypeRow.Content"
+          uid="{4A158C4C-69C9-4ED0-B84C-A42B4905ED2B}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="UsePadding=0&amp;Id=InfoTypeRow"
+          ph="InfoSmartPanel.Content"
+          uid="{53EEB787-2110-4E50-8FF3-8A1BDEC77A59}" />
+        <r
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="&amp;TextType=Value&amp;Id=InfoType"
+          ph="InfoTypeRow.Content"
+          uid="{39FBE11D-8EDA-4F0E-8F9C-FED88C6A9B23}" />
+        <r
+          ds="{EA3584A2-C9C1-4353-AA1F-AC9FED1ABDD4}"
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="TextType=Label&amp;Id=InfoNameLabel"
+          ph="InfoNameRow.Content"
+          uid="{0AD34FED-934A-4678-8D3C-335A61344BB4}" />
+        <r
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="&amp;TextType=Value&amp;Id=InfoName"
+          ph="InfoNameRow.Content"
+          uid="{B06CB526-3C28-4DAA-BDCA-A612645773BD}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="UsePadding=0&amp;Id=PathRow"
+          ph="InfoSmartPanel.Content"
+          uid="{21C25763-E27D-4639-BBAD-0DB6783D385D}" />
+        <r
+          ds="{8804A9FE-A9EA-4BA6-8944-B4FBC534B77C}"
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="&amp;TextType=Label&amp;Id=PathLabel"
+          ph="PathRow.Content"
+          uid="{D86E8F40-FEE4-4346-9F00-D8AE6E761E6F}" />
+        <r
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="&amp;TextType=Value&amp;Id=Path"
+          ph="PathRow.Content"
+          uid="{FA4EF8EC-0606-4184-BA13-68FB5B1382F7}" />
+        <r
+          id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}"
+          par="Field=Rule&amp;RuleItemId=%7b53615595-B9F1-415C-8930-3012AB56458D%7d&amp;TargetControl=TreeView&amp;Trigger=change%3aselectedItemId&amp;Id=TreeViewRule"
+          ph="Page.Body"
+          uid="{D17BD491-9D03-4019-9740-DA149D46F5B7}" />
+        <r
+          id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}"
+          par="Field=Rule&amp;RuleItemId=%7b37616198-2B29-4D93-A7B3-C68D576E4E51%7d&amp;TargetControl=InsertItemButton&amp;Trigger=click&amp;Id=InsertButtonRule"
+          ph="Page.Body"
+          uid="{7E75A580-8859-4E8E-8512-0E48D08BCABD}" />
+        <r
+          id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}"
+          par="Field=Rule&amp;RuleItemId=%7b22AF72B3-E9A9-492E-9817-8FA766A559C3%7d&amp;TargetControl=CancelButton&amp;Trigger=click&amp;Id=CancelButtonRule"
+          ph="Page.Body"
+          uid="{E3C49698-0225-48D9-8FD9-9358AEB0CACC}" />
+      </d>
+    </r>
+- ID: "f7b4ebc1-2335-4eb8-afae-3444923a38be"
+  Hint: Subthemes
+  Type: Checklist
+  Value: "{F69304BA-2B80-4555-96DD-6F08559405E1}"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: InsertSitecoreItemViaTreeDialog
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: "Indsæt Sitecore-element"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: SitecoreItemÜberBaumdialogEinfügen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100703Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Sitecore Item einfügen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130118T151052
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Insert Sitecore Item
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ツリー ダイアログからサイトコア アイテムを挿入
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100946Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: サイトコア アイテムを挿入
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: InsertSitecoreItemViaTreeDialog
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101232Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: 插入 Sitecore 节点

@@ -1,0 +1,97 @@
+﻿---
+ID: "9e9b5ce2-0df5-41af-83e0-5d29fcec7fa1"
+Parent: "47a44057-fed7-46b4-b611-0bc242413a0e"
+Template: "1f99ae6e-22b8-419e-81db-a983e619325e"
+Path: /sitecore/client/Applications/Dialogs/BulkEditByTemplateDialog/PageSettings/CancelButtonRuleDefinition
+DB: core
+SharedFields:
+- ID: "431a0113-9d08-4dae-8c5b-ac8301512bd8"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule>
+        <conditions>
+          <condition
+            id="{B5CF2ABD-0811-4220-9805-8F6E62F4F4AC}"
+            uid="FAA4A625D0FB4F38A4D5706E563340F6" />
+        </conditions>
+        <actions>
+          <action
+            id="{5C48DD1A-CA07-4AAF-86BF-84F0885BAE41}"
+            uid="{16DCE212-D936-4C4B-B355-A0775F72B0B7}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: CancelButtonRuleDefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100256Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: AbbrechenButtonRegeldefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100553Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130719T161003
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: キャンセル ボタン ルール定義
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100820Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: CancelButtonRuleDefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101107Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

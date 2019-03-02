@@ -1,0 +1,103 @@
+﻿---
+ID: "02cdddf4-dc0e-481d-8a9a-881abbe325fe"
+Parent: "be9803b4-8003-441c-a7ea-a9fa4fe1c2b4"
+Template: "d3cefe6e-e51b-4a84-b92e-aaf8aa8e8dc8"
+Path: /sitecore/client/Applications/Dialogs/BulkEditByTemplateDialog/PageSettings/ListControl/CreatedBy
+DB: core
+SharedFields:
+- ID: "ab947466-c30d-4ed4-ab9e-11e35e34bfbd"
+  Hint: Formatter
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "e67f1b1f-3488-4cf4-80ae-be285c918c2e"
+  Hint: DataField
+  Value: __Created
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: CreatedBy
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100327Z
+    - ID: "2e9fd749-0f47-4397-8ba2-c56c65366bf0"
+      Hint: HeaderText
+      Value: Oprettelsesdato
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ErstelltVon
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100628Z
+    - ID: "2e9fd749-0f47-4397-8ba2-c56c65366bf0"
+      Hint: HeaderText
+      Value: Erstellungsdatum
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130110T145855
+    - ID: "2e9fd749-0f47-4397-8ba2-c56c65366bf0"
+      Hint: HeaderText
+      Value: Creation Date
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 作成日
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100907Z
+    - ID: "2e9fd749-0f47-4397-8ba2-c56c65366bf0"
+      Hint: HeaderText
+      Value: 作成日
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: CreatedBy
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101150Z
+    - ID: "2e9fd749-0f47-4397-8ba2-c56c65366bf0"
+      Hint: HeaderText
+      Value: 创建日期
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

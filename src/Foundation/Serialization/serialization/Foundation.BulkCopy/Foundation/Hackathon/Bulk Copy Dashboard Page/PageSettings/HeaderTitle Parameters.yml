@@ -1,0 +1,17 @@
+﻿---
+ID: "c05a2a21-3bf9-4fa7-8f71-0929cb637f78"
+Parent: "6ece2981-978e-411e-8900-6ffebaec3aa4"
+Template: "6437cfd5-76ca-48aa-bfbd-8b8d73eb5581"
+Path: /sitecore/client/Your Apps/Foundation/Hackathon/Bulk Copy Dashboard Page/PageSettings/HeaderTitle Parameters
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T120225Z
+    - ID: "3564b3d0-3804-4d86-9880-b5e7473ef56c"
+      Hint: Text
+      Value: Bulk Copy

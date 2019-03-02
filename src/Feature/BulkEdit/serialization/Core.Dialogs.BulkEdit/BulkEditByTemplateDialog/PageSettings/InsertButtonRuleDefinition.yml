@@ -1,0 +1,99 @@
+﻿---
+ID: "0634dbb0-c143-4f46-afa9-7da09eee2d65"
+Parent: "47a44057-fed7-46b4-b611-0bc242413a0e"
+Template: "1f99ae6e-22b8-419e-81db-a983e619325e"
+Path: /sitecore/client/Applications/Dialogs/BulkEditByTemplateDialog/PageSettings/InsertButtonRuleDefinition
+DB: core
+SharedFields:
+- ID: "431a0113-9d08-4dae-8c5b-ac8301512bd8"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule>
+        <conditions>
+          <condition
+            id="{B5CF2ABD-0811-4220-9805-8F6E62F4F4AC}"
+            uid="31C9768FDC3D458CAE215B81B872EDE9" />
+        </conditions>
+        <actions>
+          <action
+            id="{1C2C694E-D4F2-4262-B43C-B34097DE81BF}"
+            uid="{DBA2854C-ABA3-4EE8-A72F-D11CDF2DCB47}"
+            targetControl="TreeView"
+            targetProperty="selectedItemId" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: InsertButtonRuleDefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100302Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ButtonRegeldefinitionEinfügen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100559Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130719T160800
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ボタンを挿入ルール定義
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100834Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: InsertButtonRuleDefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101116Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

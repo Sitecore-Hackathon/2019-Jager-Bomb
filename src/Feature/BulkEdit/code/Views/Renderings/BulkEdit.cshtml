@@ -1,0 +1,20 @@
+﻿@model Reply.Feature.BulkEdit.Models.BulkEditViewModel
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.RootId)
+    @Html.HiddenFor(m => m.RootLanguage)
+    @Html.HiddenFor(m => m.TemplateId)
+
+    for (var i = 0; i < Model.Fields.Count; i++)
+    {
+        <div>
+            @Html.HiddenFor(m => Model.Fields[i].Id)
+            @Html.HiddenFor(m => Model.Fields[i].Name)
+            @Model.Fields[i].Name: <br />@Html.TextBoxFor(m => Model.Fields[i].Value)
+        </div>
+        <br />
+    }
+
+    <input type="submit" value="Bulk Update" />
+}

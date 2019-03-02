@@ -1,0 +1,26 @@
+﻿---
+ID: "e0a5431a-e01f-4edf-a4ea-13aec534d248"
+Parent: "94a08a0b-c09e-4f94-a299-df3fc5904dd8"
+Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
+Path: /sitecore/client/Your Apps/Bulk Edit/PageSettings
+DB: core
+BranchID: "be42f637-4596-4fa6-ac95-5ff431320454"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8A6A327C-6BE3-43CE-99CD-F1459EDBF92A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T115120Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

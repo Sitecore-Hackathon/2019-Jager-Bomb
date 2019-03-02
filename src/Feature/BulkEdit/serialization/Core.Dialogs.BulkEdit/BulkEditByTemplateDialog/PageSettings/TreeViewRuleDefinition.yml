@@ -1,0 +1,126 @@
+﻿---
+ID: "30c02dee-417a-48e7-add6-9114c5b16541"
+Parent: "47a44057-fed7-46b4-b611-0bc242413a0e"
+Template: "1f99ae6e-22b8-419e-81db-a983e619325e"
+Path: /sitecore/client/Applications/Dialogs/BulkEditByTemplateDialog/PageSettings/TreeViewRuleDefinition
+DB: core
+SharedFields:
+- ID: "431a0113-9d08-4dae-8c5b-ac8301512bd8"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule>
+        <actions>
+          <action
+            id="{0EF20026-BA15-486C-B88E-5540002FAB10}"
+            uid="{D4E4D0D7-43B2-40B0-93DD-2310E3B5B895}"
+            targetId="Path"
+            targetProperty="text"
+            sourceControlId="TreeView"
+            sourceProperty="$path" />
+          <action
+            id="{F51FD432-BB4E-46E2-9A43-20F27C0BC24F}"
+            uid="{5768753D-259A-4135-9F31-DEF157A5B95D}"
+            name="InsertItemButton"
+            value="true" />
+        </actions>
+        <conditions>
+          <condition
+            id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}"
+            uid="E765F62E60E94999B75851E81954BA10"
+            name="TreeView" />
+        </conditions>
+      </rule>
+      <rule
+        uid="4A96AFACAFD442BDBF1091275262DF44">
+        <conditions
+          uid="D0DD8150BE714A6E85F0BC9239832662">
+          <condition
+            id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}"
+            uid="C8E19E31FA134A2FB5424FF5EE5145AA"
+            name="TreeView"
+            except="true" />
+        </conditions>
+        <actions
+          uid="10A2F33A217745DD9A1F7BD32341388A">
+          <action
+            id="{F51FD432-BB4E-46E2-9A43-20F27C0BC24F}"
+            uid="{69C37391-9C7D-4565-A7C5-FC630A592C10}"
+            name="InsertItemButton"
+            value="false" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: TreeViewRuleDefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100310Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: BaumAnsehenRegeldefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100609Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130718T180827
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ツリー ビュー ルールの定義
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100845Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: TreeViewRuleDefinition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101128Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

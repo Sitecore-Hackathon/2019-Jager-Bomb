@@ -1,0 +1,21 @@
+﻿---
+ID: "1efafc5f-6136-4e75-9002-2ae2f4094f34"
+Parent: "6ece2981-978e-411e-8900-6ffebaec3aa4"
+Template: "4d96d06c-54ee-47f3-97e5-1b4fa4b902b0"
+Path: /sitecore/client/Your Apps/Foundation/Hackathon/Bulk Copy Dashboard Page/PageSettings/DialogWindow Parameters
+DB: core
+SharedFields:
+- ID: "91b99af8-8c82-4f69-a1ab-d2c6b90140bf"
+  Hint: Backdrop
+  Value: Static
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T135604Z
+    - ID: "7065ac6a-3607-4f0b-97cf-9d0b46b961ff"
+      Hint: HeaderText
+      Value: Testing

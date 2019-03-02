@@ -1,0 +1,120 @@
+﻿---
+ID: "428888f8-fb70-4049-8e17-c27e1c292a6a"
+Parent: "d582cc53-40e5-4b9f-bf36-847428350f69"
+Template: "83e8f3d3-065a-40e3-b17d-c4a1e9dad6b4"
+Path: /sitecore/client/Applications/Dialogs/BulkEditByTemplateDialog/PageSettings/SearchConfigs/CreatedByMe
+DB: core
+SharedFields:
+- ID: "19e8edb4-8d83-40d9-936e-a21b08cbbc33"
+  Hint: Root
+  Value: "{11111111-1111-1111-1111-111111111111}"
+- ID: "1eb83c54-906c-4ec9-bbc7-9e5d3608c3f1"
+  Hint: UpdatedByCurrentUser
+  Type: Checkbox
+  Value: 0
+- ID: "1f2aa706-c917-44f2-ae65-738617cb252e"
+  Hint: UpdatedWithin7Days
+  Type: Checkbox
+  Value: 0
+- ID: "58248235-7713-4bcb-b9bb-b6a31b114302"
+  Hint: Base Templates
+  Type: TreelistEx
+  Value: 
+- ID: "c41aa0fb-cd20-4764-92d8-43e3f6562144"
+  Hint: AppendSearchText
+  Type: Checkbox
+  Value: 1
+- ID: "cfb92d75-97a3-4b3d-b8d4-304f7fbc7e1e"
+  Hint: Search
+  Value: 
+- ID: "e4cecadc-5661-4dd6-a765-f30e15b01c6e"
+  Hint: CreatedByCurrentUser
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: CreatedByMe
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2354b5ac-94ad-475e-8a67-aac438543471"
+      Hint: DisplayText
+      Value: Elementer oprettet af mig
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100352Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: VonMirErstellt
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2354b5ac-94ad-475e-8a67-aac438543471"
+      Hint: DisplayText
+      Value: Von mir erstellte Items
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100656Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2354b5ac-94ad-475e-8a67-aac438543471"
+      Hint: DisplayText
+      Value: Items created by me
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120626T163924
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 自分が作成したアイテム
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2354b5ac-94ad-475e-8a67-aac438543471"
+      Hint: DisplayText
+      Value: 自分が作成したアイテム
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100937Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: CreatedByMe
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2354b5ac-94ad-475e-8a67-aac438543471"
+      Hint: DisplayText
+      Value: 我创建的节点
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101223Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
