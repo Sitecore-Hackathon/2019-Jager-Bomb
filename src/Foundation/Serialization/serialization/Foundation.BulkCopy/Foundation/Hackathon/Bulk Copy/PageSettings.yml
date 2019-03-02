@@ -1,0 +1,26 @@
+﻿---
+ID: "21f3aef6-d2fe-41dd-bb94-a3f37c30d7e6"
+Parent: "0cde7800-0e1d-4773-bb5d-4985351e6a0f"
+Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
+Path: /sitecore/client/Your Apps/Foundation/Hackathon/Bulk Copy/PageSettings
+DB: core
+BranchID: "ef643281-0f7f-41f0-9af3-93e2da21a9a6"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{06F455A7-F703-4E2A-8F04-27C62CDD4157}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T093555Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

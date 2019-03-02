@@ -1,0 +1,14 @@
+﻿---
+ID: "705c68b4-7296-4b3f-b611-d9f22cfa1474"
+Parent: "1bbff30a-0571-4d75-8ab9-963133914951"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Your Apps/Foundation/Hackathon
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T093249Z
