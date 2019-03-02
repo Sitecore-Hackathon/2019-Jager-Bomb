@@ -24,7 +24,7 @@ namespace Reply.Feature.BulkEdit.Controllers
 
             var model = bulkEditService.GetBulkEditViewModel(rootId, rootLanguage, templateId);
 
-            return View("~/Views/Renderings/BulkEdit.cshtml", model);
+            return View(model);
         }
 
 
@@ -38,7 +38,7 @@ namespace Reply.Feature.BulkEdit.Controllers
                 return Redirect("/sitecore/shell/sitecore/client/Applications/Launchpad");
             }
 
-            return View("~/Views/Renderings/BulkEdit.cshtml", model);
+            return View(model);
         }
     }
 }

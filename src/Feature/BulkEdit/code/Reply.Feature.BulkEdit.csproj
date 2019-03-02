@@ -164,8 +164,7 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config" />
-    <Content Include="Views\Renderings\BulkEdit.cshtml" />
-    <Content Include="Views\Renderings\Web.config" />
+    <Content Include="Views\BulkEdit\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
